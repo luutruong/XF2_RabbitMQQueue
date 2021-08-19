@@ -61,7 +61,9 @@ class Manager extends XFCP_Manager
                             'x-delay' => max(0, ($runTime - time()) * 1000)
                         ]
                     ]
-                ]
+                ],
+                'connect_timeout' => 3,
+                'timeout' => 3,
             ]);
         } catch (\Throwable $e) {
             if (\XF::$debugMode) {
