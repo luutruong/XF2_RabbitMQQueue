@@ -15,3 +15,6 @@ $config['RabbitMQQueue'] = [
 ];
 
 ```
+
+## Requirements
+- XenForo 2.2.x
